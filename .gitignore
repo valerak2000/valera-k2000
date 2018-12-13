@@ -363,3 +363,13 @@ npm-debug.log
 scripts/
 docs/.~lock.common struct.xlsx#
 webpack-stats.json
+backend/accounts/__init__.py
+backend/base/__init__.py
+backend/tests/__init__.py
+backend/lib/__init__.py
+backend/tests/python/__init__.py
+backend/tests/python/accounts/__init__.py
+backend/tests/python/base/__init__.py
+backend/tests/python/utils/__init__.py
+backend/valera_k2000/__init__.py
+backend/valera_k2000/settings/__init__.py

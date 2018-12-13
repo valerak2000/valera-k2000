@@ -1,4 +1,4 @@
-from bvh_web.settings.staging import *  # NOQA (ignore all errors on this line)
+from valera_k2000.settings.staging import *  # NOQA (ignore all errors on this line)
 
 DATABASES = {
     'default': {

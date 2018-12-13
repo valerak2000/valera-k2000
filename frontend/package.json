@@ -1,5 +1,5 @@
 {
-  "name": "bvh_web",
+  "name": "valera_k2000",
   "version": "0.0.1",
   "description": "Django, React 16, Material-UI, Webpack 4 (with Hot Module Replacement) and Babel 7.",
   "main": "src/index.jsx",
@@ -28,7 +28,7 @@
     "dev-nowatch": "webpack --progress --display-error-details --colors --config=webpack/dev.config.js",
     "lint": "npm-run-all lint-js lint-less",
     "lint-js": "jshint",
-    "lint-less": "lesshint ./src/bvh_web/assets/less",
+    "lint-less": "lesshint ./src/valera_k2000/assets/less",
     "start": "npm run dev",
     "start-nowatch": "npm run dev-nowatch",
     "start-prod": "npm run build",
@@ -43,10 +43,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/valerak2000/bvh_web.git"
+    "url": "git+https://github.com/valerak2000/valera_k2000.git"
   },
   "bugs": {
-    "url": "https://github.com/valerak2000/bvh_web/issues"
+    "url": "https://github.com/valerak2000/valera_k2000/issues"
   },
   "engines": {
     "node": ">=8.11.1",

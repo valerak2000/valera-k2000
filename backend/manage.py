@@ -3,7 +3,7 @@ import os
 import sys
 
 if __name__ == "__main__":
-    os.environ.setdefault("DJANGO_SETTINGS_MODULE", "bvh_web.settings.dev")
+    os.environ.setdefault("DJANGO_SETTINGS_MODULE", "valera_k2000.settings.dev")
 
     from django.core.management import execute_from_command_line
 

@@ -24,4 +24,4 @@ npm i
 
 psql -h localhost -p 5433 -U djangoreactredux djangoreactredux_dev
 
-python manage.py runserver 0.0.0.0:8080 --settings=valera-k2000.settings.dev
+python manage.py runserver 0.0.0.0:8080 --settings=valera_k2000.settings.dev

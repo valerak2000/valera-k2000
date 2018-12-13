@@ -1,9 +1,9 @@
-"""Django settings for bvh_web project."""
+"""Django settings for valera_k2000 project."""
 
 import os
 
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
-PROJECT_NAME = 'valera-k2000'
+PROJECT_NAME = 'valera_k2000'
 
 def base_dir_join(*args):
     return os.path.join(BASE_DIR, *args)
@@ -73,9 +73,9 @@ TEMPLATES = [
 ]
 
 ROOT_URLCONF = PROJECT_NAME + '.urls'
-#ROOT_URLCONF = 'bvh_web.urls'
+#ROOT_URLCONF = 'valera_k2000.urls'
 WSGI_APPLICATION = PROJECT_NAME + '.wsgi.application'
-#WSGI_APPLICATION = 'bvh_web.wsgi.application'
+#WSGI_APPLICATION = 'valera_k2000.wsgi.application'
 
 AUTH_PASSWORD_VALIDATORS = [
     {

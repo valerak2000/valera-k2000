@@ -1,4 +1,4 @@
-from bvh_web.settings.base import *  # NOQA (ignore all errors on this line)
+from valera_k2000.settings.base import *  # NOQA (ignore all errors on this line)
 
 DEBUG = False
 TEMPLATE_DEBUG = DEBUG
