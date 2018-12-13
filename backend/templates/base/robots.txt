@@ -1,0 +1,6 @@
+Sitemap: http://valera-k2000.ru/sitemap.xml,
+User-agent: *
+Disallow: /admin/
+Disallow: /protected/
+Allow: /
+Crawl-delay: 2
