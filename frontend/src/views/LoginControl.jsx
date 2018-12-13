@@ -46,40 +46,6 @@ export function Logged(props) {
     );
 }
 /*
-        <IconMenu
-            iconButtonElement = {
-                <IconButton>
-                    <MoreVertIcon />
-                </IconButton>
-            }
-            anchorOrigin = {{ horizontal: 'right', vertical: 'top' }}
-            targetOrigin = {{ horizontal: 'right', vertical: 'top' }}
-            style = { props.style.button }
-            iconStyle = { props.style.button.iconMenu }
-        >
-            <MenuItem
-                primaryText = 'Личный кабинет (Внести показания, узнать состояние баланса, заказать и оплатить услуги)'
-                secondaryText = '123'
-                leftIcon = {
-                    <FontAwesomeIcon
-                        icon = { faLock }
-                        style = { props.style.button.icon }
-                    />
-                }
-                onClick = { props.onClickProtected }
-            />
-            <Divider />
-            <MenuItem
-                primaryText = { props.userName }
-                leftIcon = { 
-                    <FontAwesomeIcon
-                        icon = { faSignOutAlt }
-                        style = { props.style.button.icon }
-                    />
-                }
-                onClick = { props.onClickLogout }
-            />
-        </IconMenu>
 */
 
 class LoginControl extends Component {
@@ -129,12 +95,12 @@ class LoginControl extends Component {
                     <span
                         style = {{ fontWeight: 100, }}
                     >
-                        Круглосуточный диспетчер:
+                        Тел.:
                     </span>
                     <span
                         style = {{ fontWeight: 700, }}
                     >
-                        &nbsp;8 (86156) 35-117
+                        &nbsp;+7 (918) 480-5486
                     </span>
                 </span>
                 {

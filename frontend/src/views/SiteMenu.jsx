@@ -49,12 +49,7 @@ class SiteMenu extends Component {
 
         //страницы отсутствующие в табах
         switch(currentTab) {
-            case 'elektronnaya_priemnaya':
-            case 'blackouts':
-            case 'available_capacity_map':
-            case 'faq':
             case 'map':
-            case 'blackouts':
                 currentTab = false;
                 break;
             default:

@@ -8,7 +8,7 @@ import Button from '@material-ui/core/Button';
 
 import LoginControl from '../../views/LoginControl';
 import SiteMenu from '../../views/SiteMenu';
-const bvhLogo = '/static/images/logo_bvh.png';
+const siteLogo = '/static/images/logo.png';
 
 class Header extends Component {
     static propTypes = {
@@ -48,7 +48,7 @@ class Header extends Component {
                         style = { appBar.logo }
                     >
                         <img
-                            src = { bvhLogo }
+                            src = { siteLogo }
                             alt = 'Главная'
                             style = { appBar.logo.picture }
                         />

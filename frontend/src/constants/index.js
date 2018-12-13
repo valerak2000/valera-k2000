@@ -11,10 +11,6 @@ export const DATA_FETCH_PROTECTED_DATA_REQUEST = 'DATA_FETCH_PROTECTED_DATA_REQU
 export const DATA_RECEIVE_PROTECTED_DATA = 'DATA_RECEIVE_PROTECTED_DATA';
 
 export const HOME_MENU = 'home';
-export const HOME_MENU_EP = 'elektronnaya_priemnaya';
-export const HOME_MENU_BO = 'blackouts';
-export const HOME_MENU_CM = 'available_capacity_map';
-export const HOME_MENU_FQ = 'faq';
 export const HOME_MENU_MP = 'map';
 
 export const ABOUT_MENU = 'about';

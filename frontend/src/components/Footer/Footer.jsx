@@ -47,48 +47,6 @@ class Footer extends Component {
             <footer 
                 style = { footer }
             >
-                <BottomNavigation 
-                    value = { value }
-                    onChange = { this.handleChange }
-                    showLabels
-                    style = { footer.bottomNavigation }
-                >
-                    <BottomNavigationAction
-                        label = '© 2018 ООО «БВХ», ООО «БООС»'
-                        icon = { <Home /> }
-                        value = 'home'
-                        component = { Link } to = '/'
-                        style = { footer.bottomNavigation.button }
-                        classes = {{ label: classes.label, }}
-                    />
-                    <BottomNavigationAction
-                        label = 'Карта сайта'
-                        icon = { <Map /> }
-                        value = 'map'
-                        component = { Link } to = '/map'
-                        style = { footer.bottomNavigation.button }
-                        classes = {{ label: classes.label, }}
-                    />
-                    <BottomNavigationAction
-                        label = 'Партнеры'
-                        icon = { <Business /> }
-                        value = 'business'
-                        href = "http://www.brhts.ru"
-                        target = "_blank"
-                        style = { footer.bottomNavigation.button }
-                        classes = {{ label: classes.label, }}
-                    />
-                </BottomNavigation>
-                <address
-                    style = { footer.bottomText }
-                >
-                    Разработка и поддержка <a 
-                        href = 'http://www.valera-k2000.ru'
-                        target = '_blank'
-                        style = { footer.bottomText.link }
-                    >
-                        <img src = { AuthorSign } alt = 'valera_k2000' width = '16' height = '16'/> valera_k2000 </a>
-                </address>
             </footer>
         );
     }

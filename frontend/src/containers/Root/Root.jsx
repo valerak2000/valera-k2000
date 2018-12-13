@@ -21,7 +21,6 @@ import DevTools from './DevTools';
 import AppView from '../App';
 import Footer from '../../components/Footer/Footer';
 import Header from '../../components/Header/Header';
-import LeftNavMenu from '../../components/Sidebar/LeftNavMenu';
 
 const isProd = process.env.NODE_ENV === 'production';
 
@@ -134,10 +133,6 @@ class Root extends Component {
                                 width: '100%',
                             }}
                         >
-                            <LeftNavMenu
-                                { ...this.props }
-                                { ...rest }
-                            />
                             {
                                 goTopEnable &&
                                 <Fab

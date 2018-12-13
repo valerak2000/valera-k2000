@@ -214,46 +214,6 @@ class LeftNavMenu extends Component {
                         { ...this.props }
                     />;
                 break;
-            case HOME_MENU_EP:
-                leftmenu =
-                    <NavMenu 
-                        items = { MENU_HOME }
-                        onClick = { this.handleMenuClick }
-                        initiallyFocused = 'elektronnaya_priemnaya'
-                        expanded = { expanded }
-                        { ...this.props }
-                    />;
-                break;
-            case HOME_MENU_BO:
-                leftmenu =
-                    <NavMenu 
-                        items = { MENU_HOME }
-                        onClick = { this.handleMenuClick }
-                        initiallyFocused = 'blackouts'
-                        expanded = { expanded }
-                        { ...this.props }
-                    />;
-                break;
-            case HOME_MENU_CM:
-                leftmenu =
-                    <NavMenu 
-                        items = { MENU_HOME }
-                        onClick = { this.handleMenuClick }
-                        initiallyFocused = 'available_capacity_map'
-                        expanded = { expanded }
-                        { ...this.props }
-                    />;
-                break;
-            case HOME_MENU_FQ:
-                leftmenu =
-                    <NavMenu 
-                        items = { MENU_HOME }
-                        onClick = { this.handleMenuClick }
-                        initiallyFocused = 'faq'
-                        expanded = { expanded }
-                        { ...this.props }
-                    />;
-                break;
             case HOME_MENU_MP:
                 leftmenu =
                     <NavMenu 
@@ -264,30 +224,10 @@ class LeftNavMenu extends Component {
                         { ...this.props }
                     />;
                 break;
-            case ABOUT_MENU:
-                leftmenu =
-                    <NavMenu 
-                        items = { MENU_ABOUT }
-                        onClick = { this.handleMenuClick }
-                        initiallyFocused = { initiallyFocused }
-                        expanded = { expanded }
-                        { ...this.props }
-                    />;
-                break;
             case CUSTOMERS_MENU:
                 leftmenu =
                     <NavMenu 
                         items = { MENU_CUSTOMERS }
-                        onClick = { this.handleMenuClick }
-                        initiallyFocused = { initiallyFocused }
-                        expanded = { expanded }
-                        { ...this.props }
-                    />;
-                break;
-            case NEWS_MENU:
-                leftmenu =
-                    <NavMenu 
-                        items = { MENU_NEWS }
                         onClick = { this.handleMenuClick }
                         initiallyFocused = { initiallyFocused }
                         expanded = { expanded }
