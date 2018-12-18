@@ -178,14 +178,14 @@ export var muiTheme = createMuiTheme({
                     fontSize: 14,
                     color: grey[50],
                     display: 'flex',
-                    margin: '0.5rem 0rem 0rem 12rem',
+                    margin: '0.5rem 0rem 0rem 21rem',
                     badge: {
                         height: 'inherit',
                         backgroundColor: 'inherit',
                         fontFamily: '"PFBeauSansPro-Reg", "sans-serif"',
                         fontSize: 14,
                         width: '19rem',
-                        margin: '0rem -6rem 0rem 0rem',
+                        margin: '0rem -16rem 0rem 0rem',
                     },
                     button: {
                         margin: '2rem 0rem 0rem 0rem',

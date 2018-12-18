@@ -6,18 +6,24 @@ import PropTypes from 'prop-types';
 import withStyles from '@material-ui/core/styles/withStyles';
 //import Menu from '@material-ui/core/Menu';
 //import MenuItem from '@material-ui/core/MenuItem';
-//import MoreVertIcon from '@material-ui/icons/MoreVert';
 import Button from '@material-ui/core/Button';
-//import IconButton from '@material-ui/core/IconButton';
 //import Divider from '@material-ui/core/Divider';
 //import Badge from '@material-ui/core/Badge';
 import { faSignInAlt } from '@fortawesome/free-solid-svg-icons/faSignInAlt';
 //import { faSignOutAlt } from '@fortawesome/free-solid-svg-icons/faSignOutAlt';
 //import { faLock } from '@fortawesome/free-solid-svg-icons/faLock';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome/';
+import { faPhone } from '@fortawesome/free-solid-svg-icons/faPhone';
 
 import { authLogoutAndRedirect } from '../actions/auth';
 
+const styles = theme => ({
+    icon: {
+//      margin: theme.spacing.unit,
+      fontSize: 18,
+    },
+});
+  
 /*eslint no-console: ["error", { allow: ["info", "warn", "error"] }] */
 export function Login(props) {
     return (
@@ -55,6 +61,7 @@ class LoginControl extends Component {
         dispatch: PropTypes.func.isRequired,
         location: PropTypes.object.isRequired,
         theme: PropTypes.object.isRequired,
+        classes: PropTypes.object.isRequired,
     };
 
     constructor(props, context) {
@@ -82,6 +89,7 @@ class LoginControl extends Component {
     };
 
     render() {
+        const { classes } = this.props;
         const { isAuthenticated, userName } = this.props;
         const login = this.props.theme.app.header.appBar.login;
 
@@ -92,11 +100,12 @@ class LoginControl extends Component {
                 <span
                     style = { login.badge }
                 >
-                    <span
-                        style = {{ fontWeight: 100, }}
-                    >
-                        Тел.:
-                    </span>
+                    <FontAwesomeIcon
+                        icon = { faPhone }
+                        flip = 'horizontal'
+                        style = {{ fontSize: 12, }}
+
+                    />
                     <span
                         style = {{ fontWeight: 700, }}
                     >
@@ -190,6 +199,4 @@ const mapStateToProps = (state, ownProps) => {
     };
 };
 
-LoginControl.muiName = 'Login';
-
-export default withStyles(null, { name: 'LoginControl', flip: false, withTheme: true })(connect(mapStateToProps)(LoginControl));
+export default withStyles(styles, { name: 'LoginControl', flip: false, withTheme: true })(connect(mapStateToProps)(LoginControl));
